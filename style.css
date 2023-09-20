@@ -1,0 +1,42 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: pink;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-height: 50px; /* Adjust the maximum height as needed */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(243, 5, 5, 0.1);
+}
+
+#spacing {
+    margin-right: 10px;
+}
